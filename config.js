@@ -56,3 +56,5 @@ fs.watchFile(file, () => {
   delete require.cache[file]
   require(file)
 })
+
+global.wait = '「 ⏱️ 」Loading...'
